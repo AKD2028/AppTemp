@@ -183,7 +183,6 @@ func Manager(url string, numChunks int,appCtx context.Context,baseDirectory stri
 		for _,path:= range partPaths {
 			os.Remove(path)
 		}
-		
 	}
 
 	Ctrl.CancelFlag = false
